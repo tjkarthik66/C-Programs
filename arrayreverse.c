@@ -9,10 +9,12 @@ int printArray(int arr[], int n);
 int main(){
     int arr[]={1, 2, 3, 4, 5, 6, 7, 8};
 
+    printf("Original Array: ");
     printArray1(arr, 8);
-
+    printf("\n");
     reverse(arr, 8);
-
+    
+    printf("Reversed Array: ");
     printArray1(arr, 8);
 
     return 0;
